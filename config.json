@@ -1,0 +1,10 @@
+{
+    "devices":[
+       
+        {
+          "name": "tracker_1",
+          "type": "Tracker",
+          "serial":"LHR-D70ACCA0"
+        }
+    ]
+}
