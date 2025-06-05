@@ -4,7 +4,9 @@ This repository contains an imitation learning algorithm Feature-based Bayesian 
 
 ## Quick Start
 Training:
+
 Input: Trajectories from 'Combined_HRI_D3.csv'
+
 Output: Trained model 'HRI_trained_D3_eBIP.bip'
 ```python
 python train.py
@@ -12,7 +14,9 @@ python train.py
 
 
 Testing:
+
 Input: Trained model 'HRI_trained_D3_eBIP.bip' and Testing  'Combined_HRI_D3.csv' last 50 trajectories
+
 Output: Predicted trajectory 'predicted_traj_dofs_7_to_18' and MSE and MAE
 ```python
 python test.py
